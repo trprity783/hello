@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!</title>
+<style>
+  body {
+    background-color: black;
+    color: rgb(179, 129, 4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  #container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #balloons {
+    position: absolute;
+  
+    left: 20px;
+    animation: float 4s infinite ease-in-out;
+  }
+  #balloons1 {
+    position: absolute;
+    
+    left: 80px;
+    animation: float 4s infinite ease-in-out;
+  }
+  #balloons2 {
+    position: absolute;
+    
+    left:140px;
+    animation: float 5s  infinite ease-in-out
+  }
+  #balloons3{
+    position: absolute;
+    
+    left:200px;
+    animation: float 4s infinite ease-in-out;
+  }
+  #balloons4 {
+    position: absolute;
+    
+    left:260px;
+    animation: float 4s infinite ease-in-out;
+  }
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  .flower {
+    position: absolute;
+  
+    animation: bloom 3s infinite ease-out;
+  }
+  @keyframes bloom {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+</style>
+</head>
+
+<body>
+<div id="container">
+<img src="happy.jpg" alt="hi">
+  <div id="balloons" style="top: 10%;">
+    <img src="sl.jpg" alt="balloon" width="50" height="70" style="margin: 10px;">
+    </div>
+    <div  id="balloons1" style="top: 20%;">
+    <img src="al.jpg" alt="balloon" width="50" height="70" style="margin: 10px;">
+    </div>
+    <div id="balloons2" style="top: 30%;">
+    <img src="nk.jpg" alt="balloon" width="50" height="70" style="margin: 10px;">
+  </div>
+  <div id="balloons3" style="top: 40%;">
+    <img src="tl.jpg" alt="balloon" width="50" height="70" style="margin: 10px;">
+  </div>
+  <div id="balloons4" style="top: 50%;">
+    <img src="ol.jpg" alt="balloon" width="50" height="70" style="margin: 10px;">
+  </div>
+  <div class="flower" style="top:20%; left: 30%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 30%; left: 50%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 50%; right: 20%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 60%; left: 40%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 80%; left: 10%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 60%; left: 40%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 10%; right: 30%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 70%; left: 60%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+  <div class="flower" style="top: 30%; left: 20%">
+    <a href="http://127.0.0.1:5500/index1.html" alt="blank">
+      <img src="star.jpg " alt="flower" width="70"
+      height="70"
+    </a>
+  <div class="flower" style="top: 60%; left: 80%;">
+    <img src="star.jpg" alt="flower" width="70" height="70">
+  </div>
+</div>
+
+</body>
+</html>
